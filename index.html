@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dự Án 2</title>
+    <style>
+      table{
+        color: yellowgreen;
+        background-color: indigo;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML Entities</h1>
     <!--HTML Entities-->
     <p>chúng ta dùng thẻ &lt;h1&gt; để đặt tiêu đề</p>
     <!--Thẻ pre-->
+    <div style="background-color: blueviolet;">
     <h1>Thẻ pre</h1>
     <p>đoạn bình thường</p> <!--định dạng auto sau khi Save-->
     <p><pre>đoạn sao khi thêm      thẻ      pre</pre></p>
+    </div>
     <!--Thẻ code-->
     <h1>thẻ code</h1>
 <pre><code>&lt;head&gt;
@@ -20,5 +28,106 @@
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
     &lt;title&gt;Dự Án 2&lt;/title&gt;
 &lt;/head&gt;</code></pre>
+  
+    <!--Thẻ Table-->
+    <h1>Thẻ Table</h1>
+    <table>
+     <thead>
+       <tr>
+         <th>Tên sản phẩm</th>
+          <th>Giá</th>
+       </tr>
+     </thead>
+      <tbody>
+       <tr>
+         <td>Áo phông</td>
+          <td>100.000VNĐ</td>
+        </tr>
+       <tr>
+          <td>Quần Jean</td>
+          <td>200.000VNĐ</td>
+     </tr>
+     </tbody>
+     <tfoot>
+        <tr>
+         <td>Tổng</td>
+         <td>300.000VNĐ</td>
+       </tr>
+      </tfoot>
+    </table>
+    <hr>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th colspan="3">Mô tả</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2" colspan="2">Áo phông</td>
+          <td>Chất liệu</td>
+          <td>Bạt</td>
+        </tr>
+        <tr>
+          <td>Kích thước</td>
+          <td>M,L,XL</td>
+        </tr>
+        <tr>
+          <td>Quần jean</td>
+          <td colspan="2">Quần Jean cao cấp, dễ dàng phối đồ</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Bài tập làm thêm-->
+    <h1>Bài Tập</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Tên sản phẩm</th>
+          <th>Giá sản phẩm</th>
+          <th>Số lượng còn lại</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Áo thun nam</td>
+          <td>100.00VNĐ</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Quần jean nữ</td>
+          <td>200.000VNĐ</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Giày thể thao</td>
+          <td>300.000VNĐ</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Remark</td>
+          <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr>
+    <br>
+    <!--Thẻ form-->
+    <h1>Thẻ form</h1>
+    <form action="">
+      <label for="">Username</label><br>
+      <input type="datetime" placeholder="Nhập username">
+      
+    </form>
+  <hr>
+    <!--CSS-->
+    <h1>CSS</h1>
+    <h2 style="background-color: aqua;font-size: xx-large;color: rgba(236, 14, 14, 0.83);">Ví dụ CSS</h2>
+    <a href="./index.html">HOME</a>
+    <a href="./trang2.html">Trang 2</a>
+    <a href="./trang1.html">Trang 1</a>
   </body>
 </html>
