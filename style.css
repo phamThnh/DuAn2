@@ -1,5 +1,28 @@
+
+body{
+        background-image: url("https://ocafe.net/wp-content/uploads/2024/10/anh-nen-may-tinh-4k-1.jpg");
+        background-repeat: no-repeat;   /* ❗ không lặp */
+        background-size: cover;         /* ❗ phủ toàn màn hình */
+        background-position: center;    /* ❗ căn giữa */
+        
+}
+
+
 h1{
+        /*kiểu chữ*/
         font-style: italic;
-        color: cyan;
-        height: max-content;
+        /*màu chữ*/
+        color: red;
+        /*phông chữ*/
+        font-family: 'Times New Roman', Times, serif;
+        /*chuyển hoa/thường*/
+        text-transform: inherit;
+        opacity: 80%;
+}
+a{
+        display: inline-block;
+        color: blueviolet;
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
 }
