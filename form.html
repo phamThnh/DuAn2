@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <h1>FORM 1</h1>
+    <form action="signin.php" method="get" class="rf">
+      <div style="font-size: 20px; color: red" class="title">
+        <label for="">Sign In</label>
+      </div>
+      <div class="feild">
+        <label for="emai">Email address </label>
+        <input type="email" id="emai" />
+      </div>
+      <div class="feild">
+        <label for="pass">Password</label>
+        <input type="password" name="password" id="pass" />
+      </div>
+      <input type="submit" class="but" value="Sign in" />
+    </form>
+    <br />
+    <h1>FORM 2</h1>
+    <form action="" class="rf2">
+      <div style="background-color: yellow; padding: 5px">
+        <label for="">Registration Form</label>
+      </div>
+      <div class="field2">
+        <label for="">ENTER NAME</label>
+        <input type="text" />
+      </div>
+      <div class="field2">
+        <label for="">ENTER PASSWORD</label>
+        <input type="password" />
+      </div>
+      <div class="field2">
+        <label for="">ENTER ADDRESS</label>
+        <input type="text" />
+      </div>
+      <div class="box">
+        <div class="left">SELECT GAMES</div>
+        <div class="right">
+          <label><input type="checkbox" /> Hockey</label><br />
+          <label><input type="checkbox" /> Football</label><br />
+          <label><input type="checkbox" /> Badminton</label><br />
+          <label><input type="checkbox" /> Cricket</label><br />
+          <label><input type="checkbox" /> Volleyball</label>
+        </div>
+      </div>
+      <div class="box">
+        <div style="color: blue; padding-left: 5px; width: 250px; border-right: 1.5px solid;">GENDER</div>
+        <div class="right">
+            <label for="fm"><input type="radio" id="fm">Female</label>
+            <label for="m" style="padding-left: 50px;"><input type="radio" id="m">Male</label>
+        </div>
+      </div>
+      <div class="field2">
+        <label for="" class="label" style="text-align: center;">AGE</label>
+        <input type="number" style="">
+      </div>
+      <div style="background-color: yellow; padding: 5px; display: flex;">
+        <input type="submit" value="Click me" class="submit">
+        <input type="reset" class="submit">
+        <input type="submit" class="submit">
+      </div>
+    </form>
+  </body>
+</html>
